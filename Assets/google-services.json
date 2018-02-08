@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "500666019617",
+    "firebase_url": "https://marfirstaid.firebaseio.com",
+    "project_id": "marfirstaid",
+    "storage_bucket": "marfirstaid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500666019617:android:190609959b3861d5",
+        "android_client_info": {
+          "package_name": "com.NTU.MarMedical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500666019617-5p65set71m33ob29l1jb2e4f4pd6jr41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_jbYGmcvb9zH33BR0AW0oKG0QxgIFsBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500666019617:android:f27441f57e29a268",
+        "android_client_info": {
+          "package_name": "com.dncom.tfiaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500666019617-5p65set71m33ob29l1jb2e4f4pd6jr41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_jbYGmcvb9zH33BR0AW0oKG0QxgIFsBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

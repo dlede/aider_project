@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="aedandheartSG_9" size="9.000000 13.014706"/>
+        <ImageTarget name="aedandheartSG_5" size="5.000000 7.230392"/>
+        <ImageTarget name="aedandheartSG" size="0.100000 0.144608"/>
+        <ImageTarget name="heart_aed_jpeg" size="1.000000 0.984615"/>
+        <ImageTarget name="aed_text_black_jpeg" size="1.000000 0.432161"/>
+        <ImageTarget name="heart_aed" size="1.000000 0.984615"/>
+        <ImageTarget name="AED_black_text" size="1.000000 0.415000"/>
+        <ImageTarget name="aed_symbol-with-aed" size="10.000000 12.040133"/>
+        <ImageTarget name="cubic.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="cubic.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="cubic.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="cubic.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="cubic.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="cubic.Front" size="1.000000 1.000000"/>
+        <MultiTarget name="cubic">
+            <Part name="cubic.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cubic.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cubic.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="cubic.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="cubic.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cubic.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

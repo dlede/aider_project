@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="firebase_database_url" translatable="false">https://marfirstaid.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">500666019617</string>
+  <string name="google_storage_bucket" translatable="false">marfirstaid.appspot.com</string>
+  <string name="project_id" translatable="false">marfirstaid</string>
+  <string name="google_api_key" translatable="false">AIzaSyA_jbYGmcvb9zH33BR0AW0oKG0QxgIFsBA</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA_jbYGmcvb9zH33BR0AW0oKG0QxgIFsBA</string>
+  <string name="google_app_id" translatable="false">1:500666019617:android:190609959b3861d5</string>
+  <string name="default_web_client_id" translatable="false">500666019617-5p65set71m33ob29l1jb2e4f4pd6jr41.apps.googleusercontent.com</string>
+</resources>

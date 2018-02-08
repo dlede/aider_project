@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarMedicalAR", "MarMedicalAR.csproj", "{61EFE037-0C1B-5BF5-A966-597E4E320F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarMedicalAR.Plugins", "MarMedicalAR.Plugins.csproj", "{FB9DE0A6-C79A-CB9E-A1FC-67187A541F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarMedicalAR.Editor", "MarMedicalAR.Editor.csproj", "{CCFA77C9-2FDB-B40A-7FCC-D92597639796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarMedicalAR.Editor.Plugins", "MarMedicalAR.Editor.Plugins.csproj", "{FDD3BB54-0BF3-4118-29B6-A57EBAAD3993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61EFE037-0C1B-5BF5-A966-597E4E320F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EFE037-0C1B-5BF5-A966-597E4E320F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EFE037-0C1B-5BF5-A966-597E4E320F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EFE037-0C1B-5BF5-A966-597E4E320F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9DE0A6-C79A-CB9E-A1FC-67187A541F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9DE0A6-C79A-CB9E-A1FC-67187A541F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9DE0A6-C79A-CB9E-A1FC-67187A541F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9DE0A6-C79A-CB9E-A1FC-67187A541F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFA77C9-2FDB-B40A-7FCC-D92597639796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFA77C9-2FDB-B40A-7FCC-D92597639796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFA77C9-2FDB-B40A-7FCC-D92597639796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFA77C9-2FDB-B40A-7FCC-D92597639796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD3BB54-0BF3-4118-29B6-A57EBAAD3993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD3BB54-0BF3-4118-29B6-A57EBAAD3993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD3BB54-0BF3-4118-29B6-A57EBAAD3993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD3BB54-0BF3-4118-29B6-A57EBAAD3993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
