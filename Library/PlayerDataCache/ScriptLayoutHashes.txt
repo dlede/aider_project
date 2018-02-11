@@ -154,7 +154,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 092e1c07b3ea0b39f94c7cd7daac505b Assembly-CSharp.dll:Vuforia.MultiTargetBehaviour
 66ee6ce0968b1fa679c5c06187b8e23f Assembly-CSharp.dll:Vuforia.VuforiaBehaviour
 3d1b89310e77c34bc0c8d7132231345c Assembly-CSharp.dll:Vuforia.WireframeBehaviour
-fe0a21fcda8323efc89f5d7998a85d2b Assembly-CSharp.dll:.Interaction
+6784135a87e36fdbfba67d9a19e9274e Assembly-CSharp.dll:.Interaction
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 4df86f437a61b08c14fd0adff88ddf71 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ActivateTrigger
 9cdaba23e5044ef3f92dd335e47a2677 Assembly-CSharp.dll:Lean.Touch.LeanPitchYaw

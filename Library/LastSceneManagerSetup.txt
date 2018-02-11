@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Login_Screen.unity
+- path: Assets/MarMdeicalAR.unity
   isLoaded: 1
   isActive: 1

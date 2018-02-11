@@ -87,7 +87,7 @@ public class Interaction : MonoBehaviour
         calltime = UnityEngine.Random.Range((6.52f * 2), (16.28f * 2)); // play with the variable time, *2 for longer playing time
         //on comparison to stroke death time, it takes about 4minutes or less for your body without oxygen and blood causing death
         deathtime = UnityEngine.Random.Range((3.00f * 2), (4.00f * 2)); // play with the variable time, 3 to 4 seconds for this case
-        body_rand = UnityEngine.Random.Range(1, 3); //number of bodies
+        body_rand = UnityEngine.Random.Range(1, 12); //number of bodies
 
         //change accordingly based on the force imitation of a CPR or AED accordingly and can be split eventually
         force = new Vector3(0.0f, 1000.0f, 0.0f);
@@ -169,25 +169,26 @@ public class Interaction : MonoBehaviour
         {
             if (track_spawned)
             {
-                if (body_rand == 1)
+                if (body_rand == 1 || body_rand == 4 || body_rand == 7 || body_rand == 10)
                 {
                     //spawn macolm
                     body1.SetActive(true);
                 }
-                else if (body_rand == 2)
+                else if (body_rand == 2 || body_rand == 5 || body_rand == 8 || body_rand == 11)
                 {
                     //spawn ant
-                    body2.SetActive(true);
+                    //body2.SetActive(true);
+                    body3.SetActive(true);
                 }
                 else
                 {
                     //spawn body4
                     //body4.SetActive(true);
                     //for now body3 is max
-                    body3.SetActive(true);
+                    body2.SetActive(true);
                 }
             }
-            else if (track_spawned2)
+            else if (track_spawned2) // if got 2 markers
             {
                 if (body_rand == 1)
                 {
@@ -199,7 +200,7 @@ public class Interaction : MonoBehaviour
                     //spawn ant
                     bodyaesg_2.SetActive(true);
                 }
-                else
+                else if (body_rand == 3)
                 {
                     //spawn body4
                     //body4.SetActive(true);
@@ -207,7 +208,6 @@ public class Interaction : MonoBehaviour
                     bodyaesg_3.SetActive(true);
                 }
             }
-
 
             resp_vital.text = victim.ill_type.vital_respi.ToString(); //breathing
             puls_vital.text = victim.ill_type.vital_pulse.ToString(); //heart

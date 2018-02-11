@@ -8033,7 +8033,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 642436385}
-  m_LocalRotation: {x: -0.39971343, y: 0.5481367, z: 0.5739794, w: -0.45861006}
+  m_LocalRotation: {x: -0.3997134, y: 0.5481367, z: 0.5739794, w: -0.45861003}
   m_LocalPosition: {x: -0.172, y: 0.338, z: 0.19}
   m_LocalScale: {x: 0.22933869, y: 0.02293326, z: 0.22933802}
   m_Children:
@@ -18375,19 +18375,19 @@ Prefab:
       objectReference: {fileID: 1785241661}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
-      value: 10.836121
+      value: 13.014706
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.y
-      value: 10.836121
+      value: 13.014706
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.z
-      value: 10.836121
+      value: 13.014706
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mTrackableName
-      value: aed_symbol-with-aed
+      value: aedandheartSG_9
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mDataSetPath
@@ -18395,7 +18395,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mAspectRatio
-      value: 1.2040133
+      value: 1.4460784
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mWidth
@@ -18403,7 +18403,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mHeight
-      value: 10.836121
+      value: 13.014706
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21041,7 +21041,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2042455119}
-  m_LocalRotation: {x: -0.39971337, y: 0.54813665, z: 0.5739793, w: -0.45861}
+  m_LocalRotation: {x: -0.3997134, y: 0.5481367, z: 0.5739794, w: -0.45861003}
   m_LocalPosition: {x: -0.172, y: 0.338, z: 0.19}
   m_LocalScale: {x: 0.22933869, y: 0.02293326, z: 0.22933802}
   m_Children:
