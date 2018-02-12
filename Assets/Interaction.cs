@@ -12,7 +12,7 @@ public class Interaction : MonoBehaviour
 {
     public GameObject setting_modal, gameOverModal, youWinModal, instruction_modal; // setting_modal.SetActive
     public GameObject body1, body2, body3;//, body4;
-    public GameObject bodyaesg_1, bodyaesg_2, bodyaesg_3;
+    //public GameObject bodyaesg_1, bodyaesg_2, bodyaesg_3;
 
     private float range = 10000f;
     //public float damage = 10f;
@@ -20,8 +20,8 @@ public class Interaction : MonoBehaviour
 
     public Camera fpsCamera;
     private GameObject impactSpark;
-    public GameObject imageTarget, imageTarget2;
-    public GameObject aed_patch1, aed_patch2, aed_patch3;
+    public GameObject imageTarget;//, imageTarget2;
+    //public GameObject aed_patch1, aed_patch2, aed_patch3;
 
     private Vector3 force;
 
@@ -68,9 +68,9 @@ public class Interaction : MonoBehaviour
         youWinModal.SetActive(false);
 
         //clear all patch to false
-        aed_patch1.SetActive(false);
-        aed_patch2.SetActive(false); 
-        aed_patch3.SetActive(false);
+        //aed_patch1.SetActive(false);
+        //aed_patch2.SetActive(false); 
+        //aed_patch3.SetActive(false);
 
         patchSpawn1.SetActive(false);
         patchSpawn2.SetActive(false);
@@ -160,7 +160,7 @@ public class Interaction : MonoBehaviour
     void Update()
     {
         track_spawned = imageTarget.GetComponent<trackable>().get_spawned();
-        track_spawned2 = imageTarget2.GetComponent<trackable>().get_spawned();
+        //track_spawned2 = imageTarget2.GetComponent<trackable>().get_spawned();
         clock.text = clock_time();
         score_text.text = "Score: " + score.ToString();
         debug_scoretext.text = "Score: " + score.ToString();
@@ -171,41 +171,18 @@ public class Interaction : MonoBehaviour
             {
                 if (body_rand == 1 || body_rand == 4 || body_rand == 7 || body_rand == 10)
                 {
-                    //spawn macolm
+                    //spawn xbot
                     body1.SetActive(true);
                 }
                 else if (body_rand == 2 || body_rand == 5 || body_rand == 8 || body_rand == 11)
                 {
-                    //spawn ant
-                    //body2.SetActive(true);
+                    //spawn andro
                     body3.SetActive(true);
                 }
                 else
                 {
-                    //spawn body4
-                    //body4.SetActive(true);
-                    //for now body3 is max
-                    body2.SetActive(true);
-                }
-            }
-            else if (track_spawned2) // if got 2 markers
-            {
-                if (body_rand == 1)
-                {
                     //spawn macolm
-                    bodyaesg_1.SetActive(true);
-                }
-                else if (body_rand == 2)
-                {
-                    //spawn ant
-                    bodyaesg_2.SetActive(true);
-                }
-                else if (body_rand == 3)
-                {
-                    //spawn body4
-                    //body4.SetActive(true);
-                    //for now body3 is max
-                    bodyaesg_3.SetActive(true);
+                    body2.SetActive(true);
                 }
             }
 
@@ -404,52 +381,28 @@ public class Interaction : MonoBehaviour
         {
             if (track_spawned) //when test aed marker is seen
             {
-                if (body_rand == 1)
+                if (body_rand == 1 || body_rand == 4 || body_rand == 7 || body_rand == 10)
                 {
-                    //set a patch of body spawned botx patch
+                    //spawn xbot patch
                     patchSpawn1.SetActive(true);
                 }
-                else if (body_rand == 2)
+                else if (body_rand == 2 || body_rand == 5 || body_rand == 8 || body_rand == 11)
                 {
-                    //set a patch of body spawned andromeda patch
+                    //spawn andro patch
+                    patchSpawn3.SetActive(true); 
+                }
+                else
+                {
+                    //spawn macolm patch
                     patchSpawn2.SetActive(true);
                 }
-                else
-                {
-                    //set a patch of body spawned malcolm patch
-                    patchSpawn3.SetActive(true);
-                }
             }
-
-            if (track_spawned2) //when test aed marker is seen
-            {
-                if (body_rand == 1)
-                {
-                    //set a patch of body spawned botx patch
-                    aed_patch1.SetActive(true);
-                }
-                else if (body_rand == 2)
-                {
-                    //set a patch of body spawned andromeda patch
-                    aed_patch2.SetActive(true);
-                }
-                else
-                {
-                    //set a patch of body spawned malcolm patch
-                    aed_patch3.SetActive(true);
-                }
-            }
-
-            
         }
         else
         {
             patchSpawn1.SetActive(false);
             patchSpawn2.SetActive(false);
             patchSpawn3.SetActive(false);
-            aed_patch1.SetActive(false);
-            aed_patch2.SetActive(false);
-            aed_patch3.SetActive(false);
         }
         action_count += 1;
         cpr_switch = false;
